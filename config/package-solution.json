@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "sp-fx-pnp-controls-wp-client-side-solution",
+    "id": "cd640654-94c5-4b4c-9234-d58aaf482ddf",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/sp-fx-pnp-controls-wp.sppkg"
+  }
+}

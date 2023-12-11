@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "sp-fx-pnp-controls-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/spFxPnpControlsWp/SpFxPnpControlsWpWebPart.js",
+          "manifest": "./src/webparts/spFxPnpControlsWp/SpFxPnpControlsWpWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SpFxPnpControlsWpWebPartStrings": "lib/webparts/spFxPnpControlsWp/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js"
+  }
+}
